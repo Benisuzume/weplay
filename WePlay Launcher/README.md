@@ -1,2 +1,5 @@
-# wc3launcher
-Automatically exported from code.google.com/p/wc3launcher
+# weplay launcher
+
+weplay launcher
+
+https://github.com/yjfyy/wc3launcher
