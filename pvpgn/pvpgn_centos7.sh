@@ -32,7 +32,7 @@ make install
 #change bnetd.conf
 cd /usr/local/etc/pvpgn/
 rm -r -f bnetd.conf
-wget https://raw.githubusercontent.com/b1glord/gameconfigs/master/pvpgn/bnetd.conf
+wget https://raw.githubusercontent.com/b1glord/weplay/master/pvpgn/bnetd.conf
 
 
 cd /usr/local/etc/pvpgn/i18n/trTR
