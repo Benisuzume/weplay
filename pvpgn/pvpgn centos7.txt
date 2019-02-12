@@ -45,6 +45,5 @@ wget https://raw.githubusercontent.com/b1glord/gameconfigs/master/Warcraft%20III
 wget https://raw.githubusercontent.com/b1glord/gameconfigs/master/Warcraft%20III/pvpgn/trTR/w3motd.txt
 
 
-
 #start server
 /usr/local/sbin/bnetd
