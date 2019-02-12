@@ -1,0 +1,27 @@
+
+#calisma zamanı aktuel log gorunumu
+less  /usr/local/var/pvpgn/bnetd.log
+
+
+#durum kontrolu ve sunucuyu durdurma
+ps
+kill PID (bnetd PID)
+
+
+
+#hostbot u aktif etme ayarları
+nano /usr/local/var/pvpgn/lua/config.lua
+bul ve degistir false degeri true olacak
+ghost = false, -- enable GHost commands
+
+
+nano /usr/local/var/pvpgn/lua/ghost/maplist.txt
+bul ve degistir harita adlari eklenecek
+
+
+
+# -window takısı ile oyunu pencere modunda acabiliyoruz
+"D:\Warcraft III 1.28.5\w3l.exe" -window -opengl
+
+[Proxy Adresim]
+pvpgn.freeddns.org

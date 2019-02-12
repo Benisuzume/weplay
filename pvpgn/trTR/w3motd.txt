@@ -1,0 +1,11 @@
+|c00FF0000Hos |c00FF9933Geldiniz |c00FF66FF%s 
+|c0000CCFFSunucu |c0000CC00Surumu |c009999FF%v |c00FFFFFF
+Sunucumuzda
+%U  Baglı Kullanıcı 
+%G  Oyun
+%u  Oyunda 
+%g  Oyun Bekleyen
+%N  Aktif Kanal 
+%c  Chat Kanali Bulunmaktadir.
+
+Bu yazı 11 satır sınırlaması nedeniyle görünmez

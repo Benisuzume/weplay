@@ -1,0 +1,13 @@
+%EMerhaba %l, Hosgeldiniz
+%ISunucu Versiyonu %v üzerinde %h.
+%IBu sunucu WePlay Game tarafından saglanmaktadir.
+%I
+%ISunucuda Toplam %a Kayitli Kullancı
+%I%N Kanalinda %G oyuncu mevcut %U kullanıcı baglı,
+%Ive %u kullanıcıları %g oyun oynuyor ve 
+%Toplam %c kanal aktif durumda.
+%IKomutlar ile sorun mu yasıyorsunuz? /help yazarak
+%Ikomutlar hakkında daha fazla bilgi alabilirsiniz.
+%IÇeviriyi değiştirmek için /lang komutunu kullanin.
+%I
+%M%m
