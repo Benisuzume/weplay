@@ -7,7 +7,7 @@ cd boost_1_54_0
 ./bjam
 ./bjam install
 cd /home
-git clone git@github.com:OHSystem/ohsystem.git
+git clone git@github.com:b1glord/OHSystem.git
 cd /home/ohsystem/ghost++/bncsutil/src/bncsutil
 make
 make install
