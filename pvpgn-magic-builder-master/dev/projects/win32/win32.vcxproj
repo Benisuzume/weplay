@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{38989EC0-B1BB-3AF8-B62B-2DA6908DA599}</ProjectGuid>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<Keyword>Win32Proj</Keyword>
+		<Platform>Win32</Platform>
+		<ProjectName>win32</ProjectName>
+		<VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>StaticLibrary</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>StaticLibrary</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\win32\Debug\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">win32.dir\Debug\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">win32</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\win32\Release\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">win32.dir\Release\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">win32</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Debug/</AssemblerListingLocation>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+			<OmitFramePointers>false</OmitFramePointers>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Lib>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+		</Lib>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Release/</AssemblerListingLocation>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Lib>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+		</Lib>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\service.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\service.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\console_output.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\console_output.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\dirent.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\windump.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\windump.h"/>
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

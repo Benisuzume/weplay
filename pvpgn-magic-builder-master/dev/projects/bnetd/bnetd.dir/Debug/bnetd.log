@@ -1,0 +1,170 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\common\common.vcxproj' does not exist.
+D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\compat\compat.vcxproj' does not exist.
+D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\win32\win32.vcxproj' does not exist.
+  account.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\account.cpp': No such file or directory
+  account_wrap.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\account_wrap.cpp': No such file or directory
+  adbanner.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\adbanner.cpp': No such file or directory
+  alias_command.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\alias_command.cpp': No such file or directory
+  anongame.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame.cpp': No such file or directory
+  anongame_gameresult.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_gameresult.cpp': No such file or directory
+  anongame_infos.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_infos.cpp': No such file or directory
+  anongame_maplists.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_maplists.cpp': No such file or directory
+  attrgroup.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\attrgroup.cpp': No such file or directory
+  attrlayer.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\attrlayer.cpp': No such file or directory
+  autoupdate.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\autoupdate.cpp': No such file or directory
+  channel_conv.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\channel_conv.cpp': No such file or directory
+  channel.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\channel.cpp': No such file or directory
+  character.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\character.cpp': No such file or directory
+  clan.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\clan.cpp': No such file or directory
+  cmdline.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\cmdline.cpp': No such file or directory
+  command.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\command.cpp': No such file or directory
+  command_groups.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\command_groups.cpp': No such file or directory
+  connection.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\connection.cpp': No such file or directory
+  file.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\file.cpp': No such file or directory
+  Kod Üretiliyor...
+  Derleniyor...
+  file_plain.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\file_plain.cpp': No such file or directory
+  friends.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\friends.cpp': No such file or directory
+  game_conv.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\game_conv.cpp': No such file or directory
+  game.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\game.cpp': No such file or directory
+  handle_anongame.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_anongame.cpp': No such file or directory
+  handle_apireg.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_apireg.cpp': No such file or directory
+  handle_bnet.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_bnet.cpp': No such file or directory
+  handle_bot.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_bot.cpp': No such file or directory
+  handle_d2cs.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_d2cs.cpp': No such file or directory
+  handle_file.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_file.cpp': No such file or directory
+  handle_init.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_init.cpp': No such file or directory
+  handle_irc_common.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_irc_common.cpp': No such file or directory
+  handle_irc.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_irc.cpp': No such file or directory
+  handle_telnet.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_telnet.cpp': No such file or directory
+  handle_udp.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_udp.cpp': No such file or directory
+  handle_wol.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wol.cpp': No such file or directory
+  handle_wol_gameres.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wol_gameres.cpp': No such file or directory
+  helpfile.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\helpfile.cpp': No such file or directory
+  ipban.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ipban.cpp': No such file or directory
+  irc.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\irc.cpp': No such file or directory
+  Kod Üretiliyor...
+  Derleniyor...
+  ladder_calc.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ladder_calc.cpp': No such file or directory
+  ladder.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ladder.cpp': No such file or directory
+  mail.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\mail.cpp': No such file or directory
+  main.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\main.cpp': No such file or directory
+  message.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\message.cpp': No such file or directory
+  news.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\news.cpp': No such file or directory
+  output.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\output.cpp': No such file or directory
+  prefs.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\prefs.cpp': No such file or directory
+  realm.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\realm.cpp': No such file or directory
+  runprog.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\runprog.cpp': No such file or directory
+  server.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\server.cpp': No such file or directory
+  sql_common.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_common.cpp': No such file or directory
+  sql_dbcreator.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_dbcreator.cpp': No such file or directory
+  sql_mysql.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_mysql.cpp': No such file or directory
+  sql_odbc.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_odbc.cpp': No such file or directory
+  sql_pgsql.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_pgsql.cpp': No such file or directory
+  sql_sqlite3.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_sqlite3.cpp': No such file or directory
+  storage.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage.cpp': No such file or directory
+  storage_file.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage_file.cpp': No such file or directory
+  storage_sql.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage_sql.cpp': No such file or directory
+  Kod Üretiliyor...
+  Derleniyor...
+  support.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\support.cpp': No such file or directory
+  team.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\team.cpp': No such file or directory
+  tick.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tick.cpp': No such file or directory
+  timer.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\timer.cpp': No such file or directory
+  topic.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\topic.cpp': No such file or directory
+  tournament.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tournament.cpp': No such file or directory
+  icons.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\icons.cpp': No such file or directory
+  tracker.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tracker.cpp': No such file or directory
+  udptest_send.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\udptest_send.cpp': No such file or directory
+  versioncheck.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\versioncheck.cpp': No such file or directory
+  watch.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\watch.cpp': No such file or directory
+  anongame_wol.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_wol.cpp': No such file or directory
+  handle_wserv.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wserv.cpp': No such file or directory
+  luafunctions.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luafunctions.cpp': No such file or directory
+  luainterface.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luainterface.cpp': No such file or directory
+  luaobjects.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luaobjects.cpp': No such file or directory
+  luawrapper.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luawrapper.cpp': No such file or directory
+  i18n.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\i18n.cpp': No such file or directory
+  userlog.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\userlog.cpp': No such file or directory
+  winmain.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\winmain.cpp': No such file or directory
+  Kod Üretiliyor...

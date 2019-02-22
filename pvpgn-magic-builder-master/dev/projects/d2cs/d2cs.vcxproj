@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{73A77623-928C-3172-9DC0-DB1519246154}</ProjectGuid>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<Keyword>Win32Proj</Keyword>
+		<Platform>Win32</Platform>
+		<ProjectName>d2cs</ProjectName>
+		<VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\d2cs\Debug\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">d2cs.dir\Debug\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">d2cs</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+		<LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+		<GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\d2cs\Release\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">d2cs.dir\Release\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">d2cs</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+		<LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+		<GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Debug/</AssemblerListingLocation>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+			<OmitFramePointers>false</OmitFramePointers>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Link>
+			<AdditionalDependencies>..\..\..\release\common.lib;..\..\..\release\compat.lib;..\..\..\release\win32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>C:/Users/burak/pvpgn-magic-builder-master/build/src/common;C:/Users/burak/pvpgn-magic-builder-master/build/src/common/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/compat;C:/Users/burak/pvpgn-magic-builder-master/build/src/compat/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/win32;C:/Users/burak/pvpgn-magic-builder-master/build/src/win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+			<ImportLibrary>C:/Users/burak/pvpgn-magic-builder-master/build/src/d2cs/Debug/d2cs.lib</ImportLibrary>
+			<ProgramDataBaseFile>C:/Users/burak/pvpgn-magic-builder-master/build/src/d2cs/Debug/d2cs.pdb</ProgramDataBaseFile>
+			<SubSystem>Windows</SubSystem>
+		</Link>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Release/</AssemblerListingLocation>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Link>
+			<AdditionalDependencies>..\common\Release\common.lib;..\compat\Release\compat.lib;..\win32\Release\win32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>C:/Users/burak/pvpgn-magic-builder-master/build/src/common;C:/Users/burak/pvpgn-magic-builder-master/build/src/common/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/compat;C:/Users/burak/pvpgn-magic-builder-master/build/src/compat/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/win32;C:/Users/burak/pvpgn-magic-builder-master/build/src/win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+			<ImportLibrary>C:/Users/burak/pvpgn-magic-builder-master/build/src/d2cs/Release/d2cs.lib</ImportLibrary>
+			<OptimizeReferences>true</OptimizeReferences>
+			<ProgramDataBaseFile>C:/Users/burak/pvpgn-magic-builder-master/build/src/d2cs/Release/d2cs.pdb</ProgramDataBaseFile>
+			<SubSystem>Windows</SubSystem>
+		</Link>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\bit.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\bnetd.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\bnetd.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\cmdline.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\cmdline.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\connection.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\connection.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charfile.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charfile.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charlist.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charlist.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2gs.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2gs.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2ladder.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2ladder.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\game.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\game.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\gamequeue.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\gamequeue.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_bnetd.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_bnetd.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2cs.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2cs.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2gs.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2gs.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_init.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_init.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_signal.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_signal.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\main.cpp"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\net.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\net.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\prefs.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\prefs.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\s2s.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\s2s.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\server.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\server.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\serverqueue.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\serverqueue.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\setup.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\version.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\d2cs_winmain.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\d2cs_resource.h"/>
+		<ResourceCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\d2cs_resource.rc"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\common\common.vcxproj">
+			<Project>{636B8943-43B5-3D01-BF4C-68A392B41B13}</Project>
+			<Name>common</Name>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\compat\compat.vcxproj">
+			<Project>{C8DF5042-B39F-33FD-8C91-24C18BA08BBB}</Project>
+			<Name>compat</Name>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\win32\win32.vcxproj">
+			<Project>{38989EC0-B1BB-3AF8-B62B-2DA6908DA599}</Project>
+			<Name>win32</Name>
+		</ProjectReference>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

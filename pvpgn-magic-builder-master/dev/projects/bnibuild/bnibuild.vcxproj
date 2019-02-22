@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{D34DDBFA-ACB9-3BEE-844C-0FDC1310788B}</ProjectGuid>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<Keyword>Win32Proj</Keyword>
+		<Platform>Win32</Platform>
+		<ProjectName>bnibuild</ProjectName>
+		<VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\bniutils\Debug\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bnibuild.dir\Debug\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bnibuild</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+		<LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+		<GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\bniutils\Release\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bnibuild.dir\Release\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bnibuild</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+		<LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+		<GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Debug/</AssemblerListingLocation>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+			<OmitFramePointers>false</OmitFramePointers>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Link>
+			<AdditionalDependencies>..\..\..\release\common.lib;..\..\..\release\compat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>C:/Users/burak/pvpgn-magic-builder-master/build/src/common;C:/Users/burak/pvpgn-magic-builder-master/build/src/common/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/compat;C:/Users/burak/pvpgn-magic-builder-master/build/src/compat/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/win32;C:/Users/burak/pvpgn-magic-builder-master/build/src/win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+			<ImportLibrary>C:/Users/burak/pvpgn-magic-builder-master/build/src/bniutils/Debug/bnibuild.lib</ImportLibrary>
+			<ProgramDataBaseFile>C:/Users/burak/pvpgn-magic-builder-master/build/src/bniutils/Debug/bnibuild.pdb</ProgramDataBaseFile>
+			<SubSystem>Console</SubSystem>
+		</Link>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Release/</AssemblerListingLocation>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Link>
+			<AdditionalDependencies>..\common\Release\common.lib;..\compat\Release\compat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>C:/Users/burak/pvpgn-magic-builder-master/build/src/common;C:/Users/burak/pvpgn-magic-builder-master/build/src/common/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/compat;C:/Users/burak/pvpgn-magic-builder-master/build/src/compat/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/win32;C:/Users/burak/pvpgn-magic-builder-master/build/src/win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+			<ImportLibrary>C:/Users/burak/pvpgn-magic-builder-master/build/src/bniutils/Release/bnibuild.lib</ImportLibrary>
+			<OptimizeReferences>true</OptimizeReferences>
+			<ProgramDataBaseFile>C:/Users/burak/pvpgn-magic-builder-master/build/src/bniutils/Release/bnibuild.pdb</ProgramDataBaseFile>
+			<SubSystem>Console</SubSystem>
+		</Link>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\bnibuild.cpp"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\fileio.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\fileio.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\bni.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\bni.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\tga.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\tga.h"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\common\common.vcxproj">
+			<Project>{636B8943-43B5-3D01-BF4C-68A392B41B13}</Project>
+			<Name>common</Name>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\compat\compat.vcxproj">
+			<Project>{C8DF5042-B39F-33FD-8C91-24C18BA08BBB}</Project>
+			<Name>compat</Name>
+		</ProjectReference>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

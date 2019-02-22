@@ -1,0 +1,11 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\common\common.vcxproj' does not exist.
+D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\compat\compat.vcxproj' does not exist.
+  bniextract.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\bniextract.cpp': No such file or directory
+  fileio.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\fileio.cpp': No such file or directory
+  tga.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\tga.cpp': No such file or directory
+  bni.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\bniutils\bni.cpp': No such file or directory
+  Kod Üretiliyor...

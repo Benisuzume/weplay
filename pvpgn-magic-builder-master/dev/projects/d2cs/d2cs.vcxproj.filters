@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\bnetd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\cmdline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2gs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2ladder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\gamequeue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_bnetd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2cs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2gs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_signal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\prefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\s2s.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\serverqueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\d2cs_winmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\bit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\bnetd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\cmdline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2charlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2gs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\d2ladder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\gamequeue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_bnetd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2cs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_d2gs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\handle_signal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\prefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\s2s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\serverqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\d2cs\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\d2cs_resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\d2cs_resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{36EDA40B-02CA-3E6B-86D8-439EFAC9E318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{571C1C18-3BE8-33B2-B603-7301B9768779}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

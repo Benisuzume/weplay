@@ -1,0 +1,24 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\common\common.vcxproj' does not exist.
+D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\compat\compat.vcxproj' does not exist.
+D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\burak\pvpgn-magic-builder-master\build\src\win32\win32.vcxproj' does not exist.
+  charlock.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\charlock.cpp': No such file or directory
+  cmdline.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\cmdline.cpp': No such file or directory
+  d2ladder.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\d2ladder.cpp': No such file or directory
+  dbsdupecheck.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\dbsdupecheck.cpp': No such file or directory
+  dbserver.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\dbserver.cpp': No such file or directory
+  dbspacket.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\dbspacket.cpp': No such file or directory
+  handle_signal.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\handle_signal.cpp': No such file or directory
+  main.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\main.cpp': No such file or directory
+  prefs.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\d2dbs\prefs.cpp': No such file or directory
+  d2dbs_winmain.cpp
+c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\d2dbs_winmain.cpp': No such file or directory
+  Kod Üretiliyor...

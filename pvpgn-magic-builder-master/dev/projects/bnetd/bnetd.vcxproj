@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{33F9C04A-E0EB-3E4A-86FC-08D0BA1AFF72}</ProjectGuid>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<Keyword>Win32Proj</Keyword>
+		<Platform>Win32</Platform>
+		<ProjectName>bnetd</ProjectName>
+		<VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\bnetd\Debug\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bnetd.dir\Debug\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bnetd</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+		<LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+		<GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\burak\pvpgn-magic-builder-master\build\src\bnetd\Release\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bnetd.dir\Release\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bnetd</TargetName>
+		<TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+		<LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+		<GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Debug/</AssemblerListingLocation>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+			<OmitFramePointers>false</OmitFramePointers>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Link>
+			<AdditionalDependencies>..\..\..\release\common.lib;..\..\..\release\compat.lib;..\..\..\release\win32.lib;ws2_32.lib;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11\zdll.lib;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21\libmysql.lib;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1\lua5.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>C:/Users/burak/pvpgn-magic-builder-master/build/src/common;C:/Users/burak/pvpgn-magic-builder-master/build/src/common/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/compat;C:/Users/burak/pvpgn-magic-builder-master/build/src/compat/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/win32;C:/Users/burak/pvpgn-magic-builder-master/build/src/win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+			<ImportLibrary>C:/Users/burak/pvpgn-magic-builder-master/build/src/bnetd/Debug/bnetd.lib</ImportLibrary>
+			<ProgramDataBaseFile>C:/Users/burak/pvpgn-magic-builder-master/build/src/bnetd/Debug/bnetd.pdb</ProgramDataBaseFile>
+			<SubSystem>Windows</SubSystem>
+		</Link>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AssemblerListingLocation>Release/</AssemblerListingLocation>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<ExceptionHandling>Sync</ExceptionHandling>
+			<Optimization>Disabled</Optimization>
+			<PrecompiledHeader>NotUsing</PrecompiledHeader>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<RuntimeTypeInfo>true</RuntimeTypeInfo>
+			<WarningLevel>Level3</WarningLevel>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<ObjectFileName>$(IntDir)</ObjectFileName>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;HAVE_CONFIG_H;WITH_LUA;WITH_SQL_MYSQL;WIN32_GUI;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+		<Midl>
+			<AdditionalIncludeDirectories>C:\Users\burak\pvpgn-magic-builder-master\build;C:\Users\burak\pvpgn-magic-builder-master\source\src;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+			<HeaderFileName>%(Filename).h</HeaderFileName>
+			<TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+			<InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+			<ProxyFileName>%(Filename)_p.c</ProxyFileName>
+		</Midl>
+		<Link>
+			<AdditionalDependencies>..\common\Release\common.lib;..\compat\Release\compat.lib;..\win32\Release\win32.lib;ws2_32.lib;C:\Users\burak\pvpgn-magic-builder-master\module\include\zlib\1.2.11\zdll.lib;C:\Users\burak\pvpgn-magic-builder-master\module\include\mysql\5.7.21\libmysql.lib;C:\Users\burak\pvpgn-magic-builder-master\module\include\lua\5.1\lua5.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>C:/Users/burak/pvpgn-magic-builder-master/build/src/common;C:/Users/burak/pvpgn-magic-builder-master/build/src/common/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/compat;C:/Users/burak/pvpgn-magic-builder-master/build/src/compat/$(Configuration);C:/Users/burak/pvpgn-magic-builder-master/build/src/win32;C:/Users/burak/pvpgn-magic-builder-master/build/src/win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+			<ImportLibrary>C:/Users/burak/pvpgn-magic-builder-master/build/src/bnetd/Release/bnetd.lib</ImportLibrary>
+			<OptimizeReferences>true</OptimizeReferences>
+			<ProgramDataBaseFile>C:/Users/burak/pvpgn-magic-builder-master/build/src/bnetd/Release/bnetd.pdb</ProgramDataBaseFile>
+			<SubSystem>Windows</SubSystem>
+		</Link>
+		<ProjectReference>
+			<LinkLibraryDependencies>false</LinkLibraryDependencies>
+		</ProjectReference>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\account.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\account.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\account_wrap.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\account_wrap.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\adbanner.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\adbanner.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\alias_command.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\alias_command.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame.cpp"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_gameresult.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_gameresult.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_infos.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_infos.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_maplists.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_maplists.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\attrgroup.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\attrgroup.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\attr.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\attrlayer.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\attrlayer.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\autoupdate.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\autoupdate.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\channel_conv.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\channel_conv.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\channel.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\channel.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\character.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\character.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\clan.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\clan.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\cmdline.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\cmdline.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\command.cpp"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\command_groups.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\command_groups.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\command.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\connection.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\connection.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\file.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\file.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\file_plain.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\file_plain.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\friends.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\friends.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\game_conv.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\game_conv.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\game.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\game.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_anongame.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_anongame.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_apireg.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_apireg.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_bnet.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_bnet.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_bot.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_bot.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_d2cs.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_d2cs.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_file.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_file.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_init.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_init.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_irc_common.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_irc_common.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_irc.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_irc.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handlers.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_telnet.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_telnet.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_udp.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_udp.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wol.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wol.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wol_gameres.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wol_gameres.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\helpfile.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\helpfile.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ipban.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ipban.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\irc.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\irc.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ladder_calc.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ladder_calc.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ladder.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\ladder.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\mail.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\mail.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\main.cpp"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\message.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\message.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\news.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\news.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\output.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\output.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\prefs.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\prefs.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\quota.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\realm.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\realm.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\runprog.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\runprog.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\server.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\server.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_common.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_common.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_dbcreator.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_dbcreator.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_mysql.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_mysql.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_odbc.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_odbc.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_pgsql.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_pgsql.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_sqlite3.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\sql_sqlite3.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage.cpp"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage_file.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage_file.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage_sql.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\storage_sql.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\support.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\support.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\team.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\team.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tick.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tick.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\timer.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\timer.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\topic.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\topic.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tournament.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tournament.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\icons.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\icons.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tracker.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\tracker.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\udptest_send.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\udptest_send.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\versioncheck.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\versioncheck.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\watch.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\watch.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_wol.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\anongame_wol.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wserv.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\handle_wserv.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luafunctions.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luafunctions.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luainterface.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luainterface.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luaobjects.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luaobjects.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luawrapper.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\luawrapper.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\i18n.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\i18n.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\userlog.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\bnetd\userlog.h"/>
+		<ClCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\winmain.cpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\winmain.h"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\json\json.hpp"/>
+		<ClInclude Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\resource.h"/>
+		<ResourceCompile Include="C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\resource.rc"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\common\common.vcxproj">
+			<Project>{636B8943-43B5-3D01-BF4C-68A392B41B13}</Project>
+			<Name>common</Name>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\compat\compat.vcxproj">
+			<Project>{C8DF5042-B39F-33FD-8C91-24C18BA08BBB}</Project>
+			<Name>compat</Name>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\burak\pvpgn-magic-builder-master\build\src\win32\win32.vcxproj">
+			<Project>{38989EC0-B1BB-3AF8-B62B-2DA6908DA599}</Project>
+			<Name>win32</Name>
+		</ProjectReference>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
