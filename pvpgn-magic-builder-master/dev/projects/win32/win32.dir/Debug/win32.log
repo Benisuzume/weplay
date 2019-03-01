@@ -1,7 +1,0 @@
-﻿  service.cpp
-c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\service.cpp': No such file or directory
-  console_output.cpp
-c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\console_output.cpp': No such file or directory
-  windump.cpp
-c1xx : fatal error C1083: kaynak dosyası açılamıyor: 'C:\Users\burak\pvpgn-magic-builder-master\source\src\win32\windump.cpp': No such file or directory
-  Kod Üretiliyor...
