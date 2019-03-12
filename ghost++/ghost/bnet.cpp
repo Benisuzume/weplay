@@ -3178,6 +3178,13 @@ void CBNET :: BotCommand(string Message, string User, bool Whisper, bool ForceRo
  
                                 else if( Command == "pub" && !Payload.empty( ) && IsLevel( User ) >= 8 )
                                         m_GHost->CreateGame( m_GHost->m_Map, GAME_PUBLIC, false, Payload, User, User, m_Server, 2, Whisper );
+
+								//
+								// !host (host public game)
+								//
+
+								else if (Command == "host" && !Payload.empty() && IsLevel(User) >= 0)
+										m_GHost->CreateGame(m_GHost->m_Map, GAME_PUBLIC, false, Payload, User, User, m_Server, 2, Whisper);
  
                                 //
                                 // !PUBBY (host public game by other player)
